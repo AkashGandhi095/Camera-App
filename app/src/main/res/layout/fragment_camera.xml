@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.CameraFragment">
+
+
+    <androidx.camera.view.PreviewView
+        android:id="@+id/cameraPrev_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/captureImgButton"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:insetLeft="0dp"
+        android:insetTop="0dp"
+        android:insetRight="0dp"
+        android:insetBottom="0dp"
+        android:layout_gravity="center|bottom"
+        android:layout_margin="8dp"
+        app:strokeColor="#ACAAAE"
+        app:strokeWidth="2dp"
+        android:backgroundTint="@color/white"
+        app:cornerRadius="60dp"/>
+
+
+</FrameLayout>
